@@ -7,7 +7,7 @@ const port = 7000;
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
 
-const sequelize = new Sequelize("learningDB", "root", 'Miss&U&Forever91', {
+const sequelize = new Sequelize("learningDB", "root", "mypass", {
     dialect: "mysql"
 });
 
